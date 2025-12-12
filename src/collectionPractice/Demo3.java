@@ -1,4 +1,4 @@
-package collectionPracice;
+package collectionPractice;
 
 import java.util.HashSet;
 import java.util.Iterator;
