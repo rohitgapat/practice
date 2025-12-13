@@ -16,5 +16,6 @@ class A {
     public static void main (String [] arg) {
     	A a = new A();
     	A a1 = new A(5);
+    	
     }
 }
