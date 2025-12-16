@@ -16,7 +16,9 @@ public class Demo7 {
 			System.out.println("value = "+ value);
 		}
 	}
-
+  
+	
+	
 	public void itarateOnKeyAndValue(HashMap<String, Integer> hs) {
 		for (Map.Entry<String , Integer> entry : hs.entrySet()) {
 			System.out.println(entry.getKey()+" = "+entry.getValue());
@@ -25,6 +27,10 @@ public class Demo7 {
 	
 	public void itarateOnKeyAndValueUsingLambda(HashMap<String, Integer> hs) {
 		hs.forEach((key,value) -> {System.out.println(key+" = "+value);});
+	}
+	
+	public void itrateKeyUsingLambda(HashMap<String, Integer> hs) {
+		
 	}
 	
 	public static void main (String [] arg) {
