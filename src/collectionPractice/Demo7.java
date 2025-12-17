@@ -17,8 +17,6 @@ public class Demo7 {
 		}
 	}
   
-	
-	
 	public void itarateOnKeyAndValue(HashMap<String, Integer> hs) {
 		for (Map.Entry<String , Integer> entry : hs.entrySet()) {
 			System.out.println(entry.getKey()+" = "+entry.getValue());
